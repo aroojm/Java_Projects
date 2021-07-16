@@ -4,3 +4,4 @@
 * Tic-Tac-Toe with AI
 * FlashCards
 * Readability score
+* Capsule Hotel
