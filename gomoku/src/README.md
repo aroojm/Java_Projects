@@ -71,4 +71,3 @@
     * private void setBoard(List<Stone> stones)
     * private String makeHeader(int num)
 
->>>>>>> 0dd75471a0e03e1a5ad32388f4e5c9255b423dec
