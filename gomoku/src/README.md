@@ -30,13 +30,6 @@
     * otherwise, continue to next player move
     
 ### Classes & Methods
-<<<<<<< HEAD
-#### (Tentative)
-- RunGame class with following methods:
-    * run
-    * printMenu
-    * printBoard
-=======
 #### (only new classes added shown here)
 
 - #### Game
@@ -57,7 +50,7 @@
     * helper methods for collecting input
       * private String inputName(int num)
       * private int[] inputCoordinates()
-      * private char askPlayAgain()
+      * private boolean askPlayAgain()
       * private int readNonNegativeInt(String prompt)
       * private String readRequiredString (String prompt)
 
