@@ -93,4 +93,26 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+    public static void writeToFile(String fileName, String input) {
+        File file = new File(fileName);
+        try (FileWriter fileWriter = new FileWriter(file, true);
+             PrintWriter writer = new PrintWriter(fileWriter)) {
+            writer.println(input);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+    public static void readFromFile(String fileName) {
+
+        try (FileReader fileReader = new FileReader(fileName);
+             BufferedReader reader = new BufferedReader(fileReader)) {
+
+            for (String line = reader.readLine(); line != null; line = reader.readLine()) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
