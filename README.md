@@ -5,3 +5,5 @@
 * FlashCards
 * Readability score
 * Capsule Hotel
+* Gomoku
+* Files Manipulation
