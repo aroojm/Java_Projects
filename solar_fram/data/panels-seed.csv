@@ -1,0 +1,8 @@
+panelId,section,row,column,type,year,isTracking
+1,Flats,1,1,AMP_SI,2010,false
+2,Treeline,250,250,MULTI_SI,2011,false
+3,Upper Hill,10,100,MONO_SI,2018,true
+4,Lower Hill,12,21,CDTD,2020,true
+5,Main,132,231,CIGS,2021,true
+6,Flats,1,2,AMP_SI,2012,false
+7,Flats,1,3,AMP_SI,2015,false
