@@ -7,4 +7,3 @@
 * Capsule Hotel
 * Gomoku
 * Files Manipulation
-* 2nd test
